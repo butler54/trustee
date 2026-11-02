@@ -38,7 +38,7 @@ hex = "0.4.3"
 kbs_protocol = { git = "https://github.com/confidential-containers/guest-components.git", rev = "7be23a1", default-features = false }
 kbs-types = "0.14.0"
 kms = { git = "https://github.com/confidential-containers/guest-components.git", rev = "7be23a1", default-features = false }
-jsonwebtoken = { version = "10", default-features = false, features = [
+jsonwebtoken = { version = "11", default-features = false, features = [
     "aws_lc_rs",
     "use_pem",
 ] }
@@ -73,7 +73,7 @@ tempfile = "3.25.0"
 tonic = "0.14"
 tonic-prost = "0.14"
 tonic-prost-build = "0.14"
-rand = "0.8.5"
+rand = "0.9.2"
 rsa = { version = "0.9.10", features = ["sha2"] }
 time = { version = "0.3.47", features = ["std"] }
 tracing = "0.1.44"
